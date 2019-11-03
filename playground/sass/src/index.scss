@@ -1,0 +1,14 @@
+@import './styles/foo';
+
+h1 {
+  color: orange;
+  filter: url(#something);
+}
+
+.foo {
+  color: green;
+
+  .oi {
+    color: red;
+  }
+}
